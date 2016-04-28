@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="did-Tp-vIq">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PFy-GM-JTv">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PFy-GM-JTv" secondAttribute="trailing" id="YxZ-NY-Lqa"/>
+                <constraint firstItem="PFy-GM-JTv" firstAttribute="top" secondItem="did-Tp-vIq" secondAttribute="top" id="Zht-r3-oUf"/>
+                <constraint firstAttribute="bottom" secondItem="PFy-GM-JTv" secondAttribute="bottom" id="aUH-8W-n8b"/>
+                <constraint firstItem="PFy-GM-JTv" firstAttribute="leading" secondItem="did-Tp-vIq" secondAttribute="leading" id="qHN-Rr-1w6"/>
+            </constraints>
+            <point key="canvasLocation" x="510" y="348"/>
+        </view>
+    </objects>
+</document>
